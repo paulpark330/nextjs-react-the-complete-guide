@@ -1,11 +1,11 @@
-import styles from "../styles/Home.module.css";
+import { getFeaturedEvents } from "../dummy-data";
 
 const HomePage = () => {
-  return (
-    <div>
-      <h1>The Home Page</h1>
-    </div>
-  );
-}
+  const featuredEvents = getFeaturedEvents();
+
+  return <div>
+    
+  </div>;
+};
 
 export default HomePage;
