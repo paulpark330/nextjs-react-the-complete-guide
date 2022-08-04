@@ -9,8 +9,6 @@ const EventDetailPage = () => {
 
   const { eventId } = router.query;
 
-  console.log(eventId);
-
   const event = getEventById(eventId);
 
   if (!event) {
