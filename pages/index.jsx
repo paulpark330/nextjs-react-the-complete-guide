@@ -1,9 +1,11 @@
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className={styles.container}>
       <h1>Hello Next World!!</h1>
     </div>
   );
 }
+
+export default Home;
